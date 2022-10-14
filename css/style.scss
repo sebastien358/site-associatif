@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700;800;900&display=swap');
+
+$planet-green: #107A93;
+
+nav .title-header {
+  font-weight: bold;
+  font-size: 35px;
+  font-family: 'Permanent Marker', cursive;
+};
+
+.btn.btn-success {
+  border-radius: 20px;
+};
+
+@media screen and (max-width: 992px) {
+  .btn.btn-success {
+    border-radius: 5px;
+    padding: 5px;
+    background: $planet-green;
+  }
+};
+
+.img-caroussel {
+  // Pour faire fonctionner la responsive du caroussel, retirer la hauteur des images en Px car les images récupérées sur internet ne sont pas adaptées.
+  height: 400px; // Pour que les images aient la même hauteur on ajoute une hauteur en Px.
+  object-fit: cover;
+};
+
+.img-associative {
+  width: 40%;
+  margin-top: 5px;
+  margin-bottom: 25px;
+  object-fit: cover;
+};
+
+@media screen and (max-width: 576px) {
+  .img-eart {
+    width: 15%;
+  }
+};
+
+.marche-img {
+  width: 30%;
+  object-fit: cover;
+};
+
+.text-underline {
+  text-decoration: underline;
+  color: $planet-green;
+};
+
+.title-principal {
+  font-size: 43px;
+  color: $planet-green;
+  font-family: 'Raleway', sans-serif;
+  font-weight: bold;
+};
+
+.text-green {
+  color: $planet-green;
+  font-size: 30px;
+  font-family: 'Raleway', sans-serif; 
+  font-weight: bold;
+};
+
+article p {
+  font-family: 'Raleway', sans-serif; 
+};
+
+.text-orange {
+  color: #ffa500;
+  text-decoration: underline;
+};
+
+.link-page {
+  text-decoration: none;
+  border: 2px solid $planet-green;
+  border-radius: 5px;
+  padding: 5px;
+  color: $planet-green;
+  &:hover {
+    color: $planet-green;
+  }
+  @media screen and (max-width: 458px) {
+    position: relative;
+    top: 17px;
+  }
+};
+
+.footer {
+  background: #566573;
+  h3 {
+    margin-bottom: 13px;
+  }
+};
+
+.list-footer {
+  list-style: none;
+  li {
+    padding-bottom: 2px;
+    a {
+      text-decoration: none;
+      color: #ffffff;
+    }
+  }
+};
+
+.title-walking {
+  font-weight: bold;
+  font-family: 'Raleway', sans-serif; 
+  color: $planet-green;
+};
+
+
+
+
+
+
